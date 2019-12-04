@@ -1,0 +1,2 @@
+//	Stack ADT Type Defintions	typedef struct node2	   {	    void*        dataPtr;	    struct node2* link;	   } LIST_NODE;	typedef struct	   {	    int         count;	    LIST_NODE* front;
+	    LIST_NODE* rear;	   } LIST;

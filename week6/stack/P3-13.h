@@ -1,0 +1,1 @@
+/*	================== stackCount =================	Returns number of elements in stack.	   Pre  stack is a pointer to the stack	   Post count returned*/int listCount (LIST* list){//	Statements	return list->count;}	// stackCount
