@@ -1,0 +1,2 @@
+/*	=============== createlist ==============	This algorithm creates an empty list.	   Pre  Nothing	   Post Returns pointer to a null list	           -or- NULL if overflow*/LIST* createList (void){//	Local Definitions	LIST* list;//	Statements	list = (LIST*) malloc( sizeof (LIST));	if (list)	   {	    list->count = 0;	    list->front = NULL;
+	    list->rear = NULL;	   } // if	return list;}	// createlist
